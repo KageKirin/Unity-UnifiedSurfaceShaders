@@ -16,7 +16,7 @@
 			"RenderType" = "Opaque"
 		}
 		CGPROGRAM
-#pragma surface surfaceFunction BlinnPhong finalcolor : finalColor
+#pragma surface surfaceFunction BlinnPhong finalcolor:finalColor
 #define UNISS_BLINNPHONG 1
 #include "XX_Core.cginc"
 		ENDCG

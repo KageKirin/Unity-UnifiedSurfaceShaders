@@ -16,7 +16,7 @@
 			"RenderType" = "Opaque"
 		}
 		CGPROGRAM
-#pragma surface surfaceFunction StandardSpecular finalcolor : finalColor
+#pragma surface surfaceFunction StandardSpecular finalcolor:finalColor
 #define UNISS_STANDARD_SPECULAR 1
 #include "XX_Core.cginc"
 		ENDCG

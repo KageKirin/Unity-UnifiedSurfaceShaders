@@ -16,7 +16,7 @@
 			"RenderType" = "Opaque"
 		}
 		CGPROGRAM
-#pragma surface surfaceFunction Standard finalcolor : finalColor
+#pragma surface surfaceFunction Standard finalcolor:finalColor
 #define UNISS_STANDARD 1
 #define OVERRIDE_UnissLighting_Forward 1
 //#define OVERRIDE_UnissLighting_Forward_ViewDir 1
