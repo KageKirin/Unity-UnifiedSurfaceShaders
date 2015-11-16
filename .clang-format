@@ -25,8 +25,8 @@ IndentFunctionDeclarationAfterType: false
 IndentWidth: 4
 MaxEmptyLinesToKeep: 2
 NamespaceIndentation: All
-ObjCSpaceAfterProperty: true
-ObjCSpaceBeforeProtocolList: true
+ObjCSpaceAfterProperty: false
+ObjCSpaceBeforeProtocolList: false
 PenaltyBreakBeforeFirstCallParameter: 100
 PenaltyBreakComment: 100
 PenaltyBreakFirstLessLess: 0
