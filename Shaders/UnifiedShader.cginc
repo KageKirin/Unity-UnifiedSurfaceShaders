@@ -89,6 +89,21 @@
 #endif //UNISS_BLINNPHONG
 
 
+#ifdef UNISS_CUSTOM
+#define UnissOutput SurfaceOutput
+
+#define __UnissLighting_Forward                 LightingCustom
+#define __UnissLighting_Forward_ViewDir         LightingCustom
+#define __UnissLighting_PrePass                 LightingCustom_PrePass
+#define __UnissLighting_SingleLightmap          LightingCustom_SingleLightmap
+#define __UnissLighting_SingleLightmap_ViewDir  LightingCustom_SingleLightmap
+#define __UnissLighting_DualLightmap            LightingCustom_DualLightmap
+#define __UnissLighting_DualLightmap_ViewDir    LightingCustom_DualLightmap
+#define __UnissLighting_DirLightmap             LightingCustom_DirLightmap
+#define __UnissLighting_DirLightmap_ViewDir     LightingCustom_DirLightmap
+#define __UnissLighting_GlobalIllumination      LightingCustom
+
+#endif //UNISS_CUSTOM
 
 
 // 2-step indirection for better control
