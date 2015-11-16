@@ -2,12 +2,8 @@
 {
 	Properties
 	{
-		_Albedo("Texture", 2D) = "white"
-		{
-		}
-		_NormalMap("Bumpmap", 2D) = "bump"
-		{
-		}
+		_Albedo("Texture", 2D) = "white" {}
+		_NormalMap("Bumpmap", 2D) = "bump" {}
 	}
 	SubShader
 	{

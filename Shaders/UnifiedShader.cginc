@@ -27,63 +27,107 @@
 #ifdef UNISS_STANDARD
 #define UnissOutput SurfaceOutputStandard
 
-#define UnissLighting_Forward LightingStandard
-#define UnissLighting_Forward_ViewDir LightingStandard
-#define UnissLighting_PrePass LightingStandard_PrePass
-#define UnissLighting_SingleLightmap LightingStandard_SingleLightmap
-#define UnissLighting_SingleLightmap_ViewDir LightingStandard_SingleLightmap
-#define UnissLighting_DualLightmap LightingStandard_DualLightmap
-#define UnissLighting_DualLightmap_ViewDir LightingStandard_DualLightmap
-#define UnissLighting_DirLightmap LightingStandard_DirLightmap
-#define UnissLighting_DirLightmap_ViewDir LightingStandard_DirLightmap
-#define UnissLighting_GlobalIllumination LightingStandard
+#define __UnissLighting_Forward                 LightingStandard
+#define __UnissLighting_Forward_ViewDir         LightingStandard
+#define __UnissLighting_PrePass                 LightingStandard_PrePass
+#define __UnissLighting_SingleLightmap          LightingStandard_SingleLightmap
+#define __UnissLighting_SingleLightmap_ViewDir  LightingStandard_SingleLightmap
+#define __UnissLighting_DualLightmap            LightingStandard_DualLightmap
+#define __UnissLighting_DualLightmap_ViewDir    LightingStandard_DualLightmap
+#define __UnissLighting_DirLightmap             LightingStandard_DirLightmap
+#define __UnissLighting_DirLightmap_ViewDir     LightingStandard_DirLightmap
+#define __UnissLighting_GlobalIllumination      LightingStandard
 
-#endif	// UNISS_STANDARD
+#endif //UNISS_STANDARD
 
 #ifdef UNISS_STANDARD_SPECULAR
 #define UnissOutput SurfaceOutputStandardSpecular
 
-#define UnissLighting_Forward LightingStandardSpecular
-#define UnissLighting_Forward_ViewDir LightingStandardSpecular
-#define UnissLighting_PrePass LightingStandardSpecular_PrePass
-#define UnissLighting_SingleLightmap LightingStandardSpecular_SingleLightmap
-#define UnissLighting_SingleLightmap_ViewDir LightingStandardSpecular_SingleLightmap
-#define UnissLighting_DualLightmap LightingStandardSpecular_DualLightmap
-#define UnissLighting_DualLightmap_ViewDir LightingStandardSpecular_DualLightmap
-#define UnissLighting_DirLightmap LightingStandardSpecular_DirLightmap
-#define UnissLighting_DirLightmap_ViewDir LightingStandardSpecular_DirLightmap
-#define UnissLighting_GlobalIllumination LightingStandardSpecular
+#define __UnissLighting_Forward                 LightingStandardSpecular
+#define __UnissLighting_Forward_ViewDir         LightingStandardSpecular
+#define __UnissLighting_PrePass                 LightingStandardSpecular_PrePass
+#define __UnissLighting_SingleLightmap          LightingStandardSpecular_SingleLightmap
+#define __UnissLighting_SingleLightmap_ViewDir  LightingStandardSpecular_SingleLightmap
+#define __UnissLighting_DualLightmap            LightingStandardSpecular_DualLightmap
+#define __UnissLighting_DualLightmap_ViewDir    LightingStandardSpecular_DualLightmap
+#define __UnissLighting_DirLightmap             LightingStandardSpecular_DirLightmap
+#define __UnissLighting_DirLightmap_ViewDir     LightingStandardSpecular_DirLightmap
+#define __UnissLighting_GlobalIllumination      LightingStandardSpecular
 
-#endif	// UNISS_STANDARD_SPECULAR
+#endif //UNISS_STANDARD_SPECULAR
 
 #ifdef UNISS_LAMBERT
 #define UnissOutput SurfaceOutput
 
-#define UnissLighting_Forward LightingLambert
-#define UnissLighting_Forward_ViewDir LightingLambert
-#define UnissLighting_PrePass LightingLambert_PrePass
-#define UnissLighting_SingleLightmap LightingLambert_SingleLightmap
-#define UnissLighting_SingleLightmap_ViewDir LightingLambert_SingleLightmap
-#define UnissLighting_DualLightmap LightingLambert_DualLightmap
-#define UnissLighting_DualLightmap_ViewDir LightingLambert_DualLightmap
-#define UnissLighting_DirLightmap LightingLambert_DirLightmap
-#define UnissLighting_DirLightmap_ViewDir LightingLambert_DirLightmap
-#define UnissLighting_GlobalIllumination LightingLambert
+#define __UnissLighting_Forward                 LightingLambert
+#define __UnissLighting_Forward_ViewDir         LightingLambert
+#define __UnissLighting_PrePass                 LightingLambert_PrePass
+#define __UnissLighting_SingleLightmap          LightingLambert_SingleLightmap
+#define __UnissLighting_SingleLightmap_ViewDir  LightingLambert_SingleLightmap
+#define __UnissLighting_DualLightmap            LightingLambert_DualLightmap
+#define __UnissLighting_DualLightmap_ViewDir    LightingLambert_DualLightmap
+#define __UnissLighting_DirLightmap             LightingLambert_DirLightmap
+#define __UnissLighting_DirLightmap_ViewDir     LightingLambert_DirLightmap
+#define __UnissLighting_GlobalIllumination      LightingLambert
 
-#endif	// UNISS_LAMBERT
+#endif //UNISS_LAMBERT
 
 #ifdef UNISS_BLINNPHONG
 #define UnissOutput SurfaceOutput
 
-#define UnissLighting_Forward LightingBlinnPhong
-#define UnissLighting_Forward_ViewDir LightingBlinnPhong
-#define UnissLighting_PrePass LightingBlinnPhong_PrePass
-#define UnissLighting_SingleLightmap LightingBlinnPhong_SingleLightmap
-#define UnissLighting_SingleLightmap_ViewDir LightingBlinnPhong_SingleLightmap
-#define UnissLighting_DualLightmap LightingBlinnPhong_DualLightmap
-#define UnissLighting_DualLightmap_ViewDir LightingBlinnPhong_DualLightmap
-#define UnissLighting_DirLightmap LightingBlinnPhong_DirLightmap
-#define UnissLighting_DirLightmap_ViewDir LightingBlinnPhong_DirLightmap
-#define UnissLighting_GlobalIllumination LightingBlinnPhong
+#define __UnissLighting_Forward                 LightingBlinnPhong
+#define __UnissLighting_Forward_ViewDir         LightingBlinnPhong
+#define __UnissLighting_PrePass                 LightingBlinnPhong_PrePass
+#define __UnissLighting_SingleLightmap          LightingBlinnPhong_SingleLightmap
+#define __UnissLighting_SingleLightmap_ViewDir  LightingBlinnPhong_SingleLightmap
+#define __UnissLighting_DualLightmap            LightingBlinnPhong_DualLightmap
+#define __UnissLighting_DualLightmap_ViewDir    LightingBlinnPhong_DualLightmap
+#define __UnissLighting_DirLightmap             LightingBlinnPhong_DirLightmap
+#define __UnissLighting_DirLightmap_ViewDir     LightingBlinnPhong_DirLightmap
+#define __UnissLighting_GlobalIllumination      LightingBlinnPhong
 
-#endif	// UNISS_BLINNPHONG
+#endif //UNISS_BLINNPHONG
+
+
+
+
+// 2-step indirection for better control
+#ifdef OVERRIDE_UnissLighting_Forward
+#define UnissLighting_Forward __UnissLighting_Forward
+#endif	// OVERRIDE_UnissLighting_Forward
+
+#ifdef OVERRIDE_UnissLighting_Forward_ViewDir
+#define UnissLighting_Forward_ViewDir __UnissLighting_Forward_ViewDir
+#endif	// OVERRIDE_UnissLighting_Forward_ViewDir
+
+#ifdef OVERRIDE_UnissLighting_PrePass
+#define UnissLighting_PrePass __UnissLighting_PrePass
+#endif	// OVERRIDE_UnissLighting_PrePass
+
+#ifdef OVERRIDE_UnissLighting_SingleLightmap
+#define UnissLighting_SingleLightmap __UnissLighting_SingleLightmap
+#endif	// OVERRIDE_UnissLighting_SingleLightmap
+
+#ifdef OVERRIDE_UnissLighting_SingleLightmap_ViewDir
+#define UnissLighting_SingleLightmap_ViewDir __UnissLighting_SingleLightmap_ViewDir
+#endif	// OVERRIDE_UnissLighting_SingleLightmap_ViewDir
+
+#ifdef OVERRIDE_UnissLighting_DualLightmap
+#define UnissLighting_DualLightmap __UnissLighting_DualLightmap
+#endif	// OVERRIDE_UnissLighting_DualLightmap
+
+#ifdef OVERRIDE_UnissLighting_DualLightmap_ViewDir
+#define UnissLighting_DualLightmap_ViewDir __UnissLighting_DualLightmap_ViewDir
+#endif	// OVERRIDE_UnissLighting_DualLightmap_ViewDir
+
+#ifdef OVERRIDE_UnissLighting_DirLightmap
+#define UnissLighting_DirLightmap __UnissLighting_DirLightmap
+#endif	// OVERRIDE_UnissLighting_DirLightmap
+
+#ifdef OVERRIDE_UnissLighting_DirLightmap_ViewDir
+#define UnissLighting_DirLightmap_ViewDir __UnissLighting_DirLightmap_ViewDir
+#endif	// OVERRIDE_UnissLighting_DirLightmap_ViewDir
+
+#ifdef OVERRIDE_UnissLighting_GlobalIllumination
+#define UnissLighting_GlobalIllumination __UnissLighting_GlobalIllumination
+#endif	// OVERRIDE_UnissLighting_GlobalIllumination
